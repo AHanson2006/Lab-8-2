@@ -14,7 +14,7 @@ int main() {
 			cout << "There are " << countWords(str) << " word(s)" << endl;
 		}
 		
-	} while (str != "Q" && str != "q");
+	} while (str != "Q" && str != "q"); 
 }
 int countWords(string str) {
 	int wordCount = 1;
